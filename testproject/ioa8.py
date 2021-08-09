@@ -10,7 +10,7 @@ try:
     URL = " https://black-moss-0a0440e03.azurestaticapps.net/ioa8.html"
     driver.get(URL)
 
-    #szamok, operandus kiolvasasa
+    # szamok, operandus kiolvasasa
     num1 = driver.find_element_by_id("num1")
     operandus = driver.find_element_by_id("op")
     num2 = driver.find_element_by_id("num2")
@@ -31,4 +31,4 @@ try:
 
 finally:
     pass
-    #driver.close()
+    # driver.close()

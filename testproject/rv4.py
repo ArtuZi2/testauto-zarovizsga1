@@ -49,7 +49,7 @@ try:
 
     if eredmeny == "Nem találtad el.":
         talalgat()
-    if eredmeny == "Eltaláltad":
+    if eredmeny == "Eltaláltad.":
         print("ok")
 
 finally:
